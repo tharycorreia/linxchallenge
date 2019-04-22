@@ -1,0 +1,88 @@
+.vitrine {
+    border: 1px solid forestgreen;
+    width: auto;
+    min-height: 347px;
+}
+
+.interesse {
+    width: 85%;
+    display: inline-block;
+    position: relative;
+}
+
+.principal {
+    clear: both;
+}
+
+.visitou {
+    width: 200px;
+    display: inline-block;
+    padding: 10px
+}
+
+.visitou-cabecalho {
+    width: 200px;
+    float: left
+}
+
+p {
+    margin: 0
+}
+
+.cabecalho {
+    background-color: #e5f7fb;
+    padding: 10px;
+    font-size: 1.5em;
+    color: blue;
+}
+
+.produto {
+    display: inline-block;
+    max-width: 200px;
+    margin-left: 0px;
+    -webkit-transition: margin-left 2s; 
+    transition: margin-left 2s;
+}
+.produtos:first-child{
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.button {
+    position: absolute;
+    margin-top: 8%;
+    display: inline-block;
+    background: url("./arrow.png") no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.button.voltar{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.produtos {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 92%;
+    height: 307px;
+    margin-left: 64px;
+    min-width: 91%;
+
+}
+
+.de, .de-value {
+    color: black;
+}
+
+.por-value, .de-value {
+    display: inline;
+}
+
+.valor {
+    color: red
+}
